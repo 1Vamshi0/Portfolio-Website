@@ -184,6 +184,7 @@ section{
     border-radius: 2rem;
 }
 .btn-color-1, .btn-color-2{
+    min-width: 1rem;
     border: rgb(53,53,53) 0.1rem solid;
 }
 .btn-color-1:hover, .btn-color-2:hover{
@@ -205,6 +206,46 @@ section{
 .btn-container{
     gap: 1rem;
 }
+
+
+.btnn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btnn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;    
+    width: 6rem;
+    border-radius: 2rem;
+    margin-left:15px;
+}
+.btnn-color-1, .btnn-color-2{
+    min-width: 1rem;
+    border: rgb(53,53,53) 0.1rem solid;
+}
+.btnn-color-1:hover, .btnn-color-2:hover{
+    cursor: pointer;
+}
+.btnn-color-1, .btnn-color-2:hover{
+    background: rgb(53,53,53);
+    color: white;
+}
+.btnn-color-1:hover{
+    background: rgb(0,0,0);
+}
+.btnn-color-2{
+    background:none;
+}
+.btnn-color-2:hover{
+    border: rgb(255,255,255) 0.1rem solid;
+}
+.btnn-container{
+    gap: 1rem;
+}
+
+
 /*about*/
 #About{
     position: relative;
